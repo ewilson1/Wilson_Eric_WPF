@@ -9,5 +9,5 @@ Date
 
 console.log("Testing the console.log");
 
-var userInput = promt("Type in your name");
+var userInput = prompt("Type in your name");
 console.log(userInput);
