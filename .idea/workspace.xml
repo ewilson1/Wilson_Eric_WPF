@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="" />
+    <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Wilson, Eric April 1st, 2015 Scalable Data Infrastructures Section 01 Problem solving .docx" afterPath="" />
+    </list>
     <ignored path="Wilson_Eric_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
