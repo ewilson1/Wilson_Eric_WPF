@@ -1,1 +1,1 @@
-alert("Hello World 2");
+alert("This is in the js file");
