@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Associating JS/Index.html" afterPath="$PROJECT_DIR$/Associating JS/Index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Associating JS/js/script.js" afterPath="$PROJECT_DIR$/Associating JS/js/script.js" />
     </list>
     <ignored path="Wilson_Eric_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Associating JS/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21428572">
+            <state vertical-scroll-proportion="-2.5">
               <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Associating JS/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -63,10 +63,10 @@
         <option value="$PROJECT_DIR$/Setup GitHub/js/script.js" />
         <option value="$PROJECT_DIR$/Setup GitHub/Index.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Associating JS/js/script.js" />
         <option value="$PROJECT_DIR$/AssocatingJS2/index.html" />
         <option value="$PROJECT_DIR$/AssocatingJS2/js/script.js" />
         <option value="$PROJECT_DIR$/Associating JS/Index.html" />
+        <option value="$PROJECT_DIR$/Associating JS/js/script.js" />
       </list>
     </option>
   </component>
@@ -433,18 +433,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Associating JS/js/script.js">
+    <entry file="file://$PROJECT_DIR$/Associating JS/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        <state vertical-scroll-proportion="-2.5">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Associating JS/Index.html">
+    <entry file="file://$PROJECT_DIR$/Associating JS/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21428572">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="33" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding />
         </state>
       </provider>
