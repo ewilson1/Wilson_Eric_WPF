@@ -1,12 +1,5 @@
-/**
- * Created by ericwilson1 on 4/12/15.
- */
+// Arrays
 
-var age;
-age = 45; //Number Variable
+var muppetNames = ["Kermit", "Miss Piggy", "Gonzo", "Rizzo"]; //0,1,2,3
 
-var isStudent = false; //Boolean Variable
-
-var firstName = "Eric";
-
-var phrase = 'I don\'t now \n You\'ll have to speak with the professor'
+console.log(muppetNames);
