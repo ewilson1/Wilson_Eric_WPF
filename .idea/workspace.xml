@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Variables/index.html" afterPath="$PROJECT_DIR$/Variables/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Variables/js/script.js" afterPath="$PROJECT_DIR$/Variables/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Video_Assignments/js/script.js" afterPath="$PROJECT_DIR$/Video_Assignments/js/script.js" />
-    </list>
+    <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="" />
     <ignored path="Wilson_Eric_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
