@@ -2,9 +2,7 @@
  * Created by ericwilson1 on 4/13/15.
  */
 
-//Expressions
+//Expressions - Modulo Operator
 
-var yearBorn = 1970;
-var age = 2015 - yearBorn;
-
-console.log(age);
+var remainder  = 32 % 10;
+console.log(remainder)
