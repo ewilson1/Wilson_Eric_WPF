@@ -10,6 +10,6 @@ var pizzas; // declaration for what they will be splitting up evenly
 pizzas = 4; // definition; this is number of pizza's ordered
 var slices; // declaration; they will be sharing slices of pizza
 slices = 8; // definition; this is the amount of slices per pizza; 1 pizza has 8 slices each
-var sparkySlices = (pizzas * slices) / (people); //this divison operator will give us a floating number
-console.log("Each Person ate " + sparkySlices + " slices of pizza");
+var result = (pizzas * slices) / (people); //this division operator will give us a floating number
+console.log("Each Person ate " + result + " slices of pizza at the party");
 
