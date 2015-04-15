@@ -10,7 +10,7 @@
 //Sparky's age is 10 human years which is (7 * 10) in dog years//
 
 var a = 10;//Sparky's age in Human years//
-var dogYears = (a * 7);//Sparky's age in Human years,2, is multiplied by 7 to get his age in dog years//
+var dogYears = (a * 7);//Sparky's age in Human years, 10 , is multiplied by 7 to get his age in dog years//
 
 var solution = "Sparky is " + a + " human years old, which is " + dogYears + " in dog years"
 console.log(solution);//This is to print into the console how old Sparky is in dog years//
