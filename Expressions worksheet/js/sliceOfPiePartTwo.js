@@ -1,5 +1,5 @@
 /*
- Eric Wilson, April 15th, 2015 Slice of Pie Part One//
+ Eric Wilson, April 15th, 2015 Slice of Pie Part Two//
 
  We need to find out how many slices are left over for Sparky after all the people in the party
  have had the same amount of slices of pizza.
