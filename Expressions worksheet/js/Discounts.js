@@ -32,24 +32,24 @@ alert("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
 console.log("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
 
 // now let's let them know about the taxes
-var ok = prompt("Before we get carried away, there is still taxes to pay.\nType yes and hit 'OK' if you want to know the tax in this county.");
+var ok = prompt("Before we get carried away, there are still taxes to pay.\nType yes and hit 'OK' if you want to know the tax in this county.");
 
 // show them the taxes which will be applied, and then store in the console
 var taxes = (.05);
-alert("The tax in the county is " +parseInt(5)+ " percent");
-console.log("The tax in the county is " +parseInt(5)+ " percent");
+alert("The tax in the county is " +parseInt(5)+ " percent.");
+console.log("The tax in the county is " +parseInt(5)+ " percent.");
 
 //Show them the tax to be added to the discounted price, and then add to the console
 var taxTotal = (discount * taxes);
-alert(("The amount of your tax to be added to your discount is $" +taxTotal+ "."));
-console.log("The amount of your tax to be added to your discount is $" +taxTotal+ ".");
+alert(("The amount of your tax to be added to your discount is $" +taxTotal+ " dollars."));
+console.log("The amount of your tax to be added to your discount is $" +taxTotal+ " dollars.");
 
 //Now show them the final price
 var Total = (taxTotal) + (discount);
 alert("The new price for your " +shoes+ " is $ " +Total+ " dollars");
 console.log("The new price for your " +shoes+ " is $" +Total+ " dollars");
 
-var print = ("Your " +shoes+ " were originally $" +cost+ ", but after a 10% discount it is now " +discount+ "without tax, and " +Total+ "with tax.");
-alert(print)
-console.log("Your " +shoes+ " were originally $" +cost+ ", but after a 10% discount it is now " +discount+ "without tax, and " +Total+ "with tax.");
+var print = ("Your " +shoes+ " were originally $" +cost+ " dollars, but after a 10% discount they are now $" +discount+  " dollars without tax, and $" +Total+ " dollars with tax.");
+alert(print);
+console.log("Your " +shoes+ " were originally $" +cost+ " dollars, but after a 10% discount they are now $" +discount+  " dollars without tax, and $" +Total+ " dollars with tax.");
 
