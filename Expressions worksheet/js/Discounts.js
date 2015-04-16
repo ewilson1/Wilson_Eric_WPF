@@ -32,7 +32,7 @@ alert("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
 console.log("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
 
 // now let's let them know about the taxes
-alert("Before we get carried away, there is still taxes to pay.\nHit 'OK' if you want to know the tax in this county.");
+var ok = prompt("Before we get carried away, there is still taxes to pay.\nType yes and hit 'OK' if you want to know the tax in this county.");
 
 // show them the taxes which will be applied, and then store in the console
 var taxes = (.05);
@@ -48,4 +48,8 @@ console.log("The amount of your tax to be added to your discount is $" +taxTotal
 var Total = (taxTotal) + (discount);
 alert("The new price for your " +shoes+ " is $ " +Total+ " dollars");
 console.log("The new price for your " +shoes+ " is $" +Total+ " dollars");
+
+var print = ("Your " +shoes+ " were originally $" +cost+ ", but after a 10% discount it is now " +discount+ "without tax, and " +Total+ "with tax.");
+alert(print)
+console.log("Your " +shoes+ " were originally $" +cost+ ", but after a 10% discount it is now " +discount+ "without tax, and " +Total+ "with tax.");
 
