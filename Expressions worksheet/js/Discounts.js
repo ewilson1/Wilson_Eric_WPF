@@ -19,3 +19,6 @@ console.log(shoes);
 // How much did they cost?
 var cost = prompt("How much did your "+shoes+ " cost?");
 console.log(cost);
+
+// Let them know about a discount of 10%
+alert("Did you know there is a 10% discount for your " +shoes+ "?");
