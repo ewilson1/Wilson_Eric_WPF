@@ -26,3 +26,7 @@ console.log("It takes them " +time+ " minutes to cook their food");
 //Now let's find out how many times they grill a month
 var month = prompt("How many times do you grill your " +food+ " in a month?");
 console.log("They grill " +month+ " times a month.");
+
+//Time to let them know how many minutes of grilling time they have per unit of fuel
+alert("Each tank holds around 240 minutes of grilling time, so keep that in mind.");
+console.log("Now they are aware of how much time they have in each tank, 240 minutes.");
