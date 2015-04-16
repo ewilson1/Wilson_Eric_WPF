@@ -14,6 +14,7 @@ April 16, 2015
 
 // Price of the item
 var shoes = prompt("Let's get you some shoes. \nWhat kind of shoes would you like?");
+// Then lets store it in the console
 console.log(shoes);
 
 // How much did they cost?
@@ -32,3 +33,9 @@ console.log("The new price for your " +shoes+ " is $" +discount+ ", before taxes
 
 // now let's let them know about the taxes
 alert("Before we get carried away, there is still taxes to pay. Hit ok if you want to know what the tax.");
+
+// show them the taxes which will be applied
+//var taxes = (.05);
+//var prompt= (taxes * discount);
+
+
