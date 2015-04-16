@@ -15,11 +15,11 @@ April 16, 2015
 // Price of the item
 var shoes = prompt("Let's get you some shoes. \nWhat kind of shoes would you like?");
 // Then lets store it in the console
-console.log(shoes);
+console.log("They like " +shoes+ ".");
 
 // How much did they cost?
 var cost = prompt("How much did your "+shoes+ " cost?");
-console.log("The " +shoes+ " are " +cost+ " dollars.");
+console.log("The " +shoes+ " are $" +cost+ " dollars.");
 
 // Let them know about a discount of 10%
 alert("Did you know you can get 10% off for your " +shoes+ "?");
@@ -32,10 +32,20 @@ alert("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
 console.log("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
 
 // now let's let them know about the taxes
-alert("Before we get carried away, there is still taxes to pay. Hit ok if you want to know what the tax.");
+alert("Before we get carried away, there is still taxes to pay.\nHit 'OK' if you want to know the tax in this county.");
 
-// show them the taxes which will be applied
-//var taxes = (.05);
-//var prompt= (taxes * discount);
+// show them the taxes which will be applied, and then store in the console
+var taxes = (.05);
+alert("The tax in the county is " +parseInt(5)+ " percent");
+console.log("The tax in the county is " +parseInt(5)+ " percent");
 
+//Show them the tax to be added to the discounted price, and then add to the console
+var taxTotal = (discount * taxes);
+alert(("The amount of your tax to be added to your discount is $" +taxTotal+ "."));
+console.log("The amount of your tax to be added to your discount is $" +taxTotal+ ".");
+
+//Now show them the final price
+var Total = (taxTotal) + (discount);
+alert("The new price for your " +shoes+ " is $ " +Total+ " dollars");
+console.log("The new price for your " +shoes+ " is $" +Total+ " dollars");
 
