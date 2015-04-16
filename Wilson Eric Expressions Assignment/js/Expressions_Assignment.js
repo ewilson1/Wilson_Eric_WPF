@@ -11,14 +11,18 @@
 
 //Givens: (what we will ask the user for) Let's Grill! 1. How much does a tank of fuel cost?, 2. How long does it take to grill chicken, in minutes?, 3. How many chickens, in minutes per chicken, can you grill before the tank runs out? What is the average cost of fuel per chicken?
 
-//Lets ask them what they like to grill.
+//Let's ask them what they like to grill.
 var food = prompt("Let's Grill!\nDo you like Chicken or Steak on the grill?");
 console.log("They like " +food+ " on the grill");
 
-//Now lets ask how much they pay to have a full tank of fuel
+//Now let's ask how much they pay to have a full tank of fuel
 var tank = prompt("How much did it cost you to fill up your tank?");
-console.log("It cost them $" +tank+ " dollars to fill up their tank.")
+console.log("It cost them $" +tank+ " dollars to fill up their tank.");
 
-//Now lets ask them how long it takes to cook their food
-var time = prompt("How long does it take to cook your " +food+ " in minutes?")
-console.log("It takes them " +time+ " minutes to cook their food")
+//Now let's ask them how long it takes to cook their food
+var time = prompt("How long does it take to cook your " +food+ " in minutes?");
+console.log("It takes them " +time+ " minutes to cook their food");
+
+//Now let's find out how many times they grill a month
+var month = prompt("How many times do you grill your " +food+ " in a month?");
+console.log("They grill " +month+ " times a month.");
