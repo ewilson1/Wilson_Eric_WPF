@@ -18,7 +18,17 @@ console.log(shoes);
 
 // How much did they cost?
 var cost = prompt("How much did your "+shoes+ " cost?");
-console.log(cost);
+console.log("The " +shoes+ " are " +cost+ " dollars.");
 
 // Let them know about a discount of 10%
-alert("Did you know there is a 10% discount for your " +shoes+ "?");
+alert("Did you know you can get 10% off for your " +shoes+ "?");
+
+// Let them know the new cost of their shoes with the discount
+var discount = (cost - (cost *.10));
+alert("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
+
+// console.log the answer to check the new discounted price of their shoes
+console.log("The new price for your " +shoes+ " is $" +discount+ ", before taxes.");
+
+// now let's let them know about the taxes
+alert("Before we get carried away, there is still taxes to pay. Hit ok if you want to know what the tax.");
