@@ -9,7 +9,7 @@
 
 //Brainstorm an idea for a calculator of some kind. Must use an array, 3 prompts for information from the user and use math expressions, et al.
 
-//Givens: (what we will ask the user for) Let's Grill! 1. How much does a tank of fuel cost?, 2. How long does it take to grill their food, in minutes?, 3. How much can you grill before the tank runs out? 4. What is the average cost of fuel per food?
+//Givens: (what we will ask the user for) Let's Grill! 1. What do they like to eat, steak or chicken?, 2. How long does it take to cook their food?, 3. How many times a month do they grill?, 4. How much did they pay for a tank of fuel?, 5. Time to draw conclusions such as a). How many steaks or chickens can they eat before the tank runs out? and b). How much does it cost to grill each time?.
 
 //Let's ask them what they like to grill.
 var food = prompt("Let's Grill!\nDo you like Chicken or Steak on the grill?");
@@ -33,10 +33,21 @@ console.log("Now they are aware of how much time they have in each tank of fuel,
 
 //We have enough information to draw a conclusion as to how many times they can grill before the tank runs out
 var grillTime = (Number(240) / time);
-alert("They can grill " +grillTime+ " " +food+ "'s until the tank runs out.");
+alert("You can grill " +grillTime+ " " +food+ "'s until the tank runs out.");
 console.log("They can grill " +grillTime+ " " +food+ "'s until the tank runs out.");
 
 //How much did it cost to cook the food each time?
 var cost=(tank / grillTime);
-alert("The cost of grilling a " +food+ " is $" +cost+ " dollars each time they grill.");
+alert("The cost of grilling a " +food+ " is $" +cost+ " dollars each time you grill.");
 console.log("The cost of grilling a " +food+ " is $" +cost+ " dollars each time they grill.");
+
+//How many tanks will they go through in a year?
+var year=(month * 12);
+var tankYear=(year / grillTime);
+alert("You will go through " +tankYear+ " tank's a year");
+console.log("They will go through " +tankYear+ " tanks a year");
+
+//So, in conclusion...
+var overall=(tank * tankYear);
+alert("So it boils down to this...\nGet ready to buy $" +overall+ " dollars worth of fuel for grilling this year.");
+console.log("So it boils down to this...\nGet ready to buy $" +overall+ " dollars worth of fuel for grilling this year.");
