@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wilson Eric Expressions Assignment/js/Expressions_Assignment.js" afterPath="$PROJECT_DIR$/Wilson Eric Expressions Assignment/js/Expressions_Assignment.js" />
-    </list>
+    <list default="true" id="c6ae0ed0-48ef-4751-9e51-41f847197889" name="Default" comment="" />
     <ignored path="Wilson_Eric_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="Expressions Assignment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wilson Eric Expressions Assignment/Expressions Assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2294455">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.11472275">
+              <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -789,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wilson Eric Expressions Assignment/Expressions Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2294455">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.11472275">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
           <folding />
         </state>
       </provider>
