@@ -9,7 +9,7 @@
 
 //Brainstorm an idea for a calculator of some kind. Must use an array, 3 prompts for information from the user and use math expressions, et al.
 
-//Givens: (what we will ask the user for) Let's Grill! 1. How much does a tank of fuel cost?, 2. How long does it take to grill thier foood, in minutes?, 3. How many chickens, in minutes per chicken, can you grill before the tank runs out? What is the average cost of fuel per chicken?
+//Givens: (what we will ask the user for) Let's Grill! 1. How much does a tank of fuel cost?, 2. How long does it take to grill their food, in minutes?, 3. How much can you grill before the tank runs out? 4. What is the average cost of fuel per food?
 
 //Let's ask them what they like to grill.
 var food = prompt("Let's Grill!\nDo you like Chicken or Steak on the grill?");
@@ -36,3 +36,7 @@ var grillTime = (Number(240) / time);
 alert("They can grill " +grillTime+ " " +food+ "'s until the tank runs out.");
 console.log("They can grill " +grillTime+ " " +food+ "'s until the tank runs out.");
 
+//How much did it cost to cook the food each time?
+var cost=(tank / grillTime);
+alert("The cost of grilling a " +food+ " is $" +cost+ " dollars each time they grill.");
+console.log("The cost of grilling a " +food+ " is $" +cost+ " dollars each time they grill.");
