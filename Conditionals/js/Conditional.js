@@ -6,21 +6,22 @@ Title
 Date
  */
  
-//Conditional Logic (in this case Boolean value; true or false conditionals)
+//Conditional Logic -Relational conditions (var examples prove either true or false)
 
 //alert("Test to see if they are connected");
 //console.log("Test to see if they are connected");
 
-var oldEnough = false;
+var kidHeight = 47; //Normally the kid would not be tall enough, but with sneakers which add 2" he is.
+ var minHeight = 48;
+ var sneakerLift = 2;
 
 //if the child is old enough, print to the console "you can ride"
+//if the kid is over 48 inches in height
+ //notice the kid now has a '2' added because they are wearing sneakers
 
-if(oldEnough){
+if(kidHeight + sneakerLift > minHeight){
    console.log ("You can ride the coaster!");
 }
-console.log("What comes after the code if the condition is false");
-
-// Relational Expressions means comparing objects for decision making
 
 
 
