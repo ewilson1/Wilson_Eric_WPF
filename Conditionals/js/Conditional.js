@@ -11,7 +11,7 @@ Date
 //alert("Test to see if they are connected");
 //console.log("Test to see if they are connected");
 
-var kidHeight = 46; //Normally the kid would not be tall enough, but with sneakers which add 2" he is.
+var kidHeight = 45; //Normally the kid would not be tall enough, but with sneakers which add 2" he is.
  var minHeight = 48;
 var wParentHeight = 45; // the height of the kid with the parent
 
@@ -22,8 +22,8 @@ var wParentHeight = 45; // the height of the kid with the parent
 if(kidHeight > minHeight){
  //print out you can ride
    console.log ("You can ride the coaster!");
-}else if(kidHeight > wParentHeight){
- //you can ride with a parent
+}else if(kidHeight >= wParentHeight){
+ //you can ride with a parent, notice I put the = in there just in case they are both the same height.
  console.log ("You can ride, but only with a parent present.");
 }else{
   //print out "sorry you have some growing to do"
