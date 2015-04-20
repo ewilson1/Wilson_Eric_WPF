@@ -6,19 +6,29 @@ Title
 Date
  */
  
-//Conditional Logic - Logical Operators
+//Conditional Logic - Ternary Operators
 
-var budget = 100;
- var iPhone = 199.99;
- var payCheck = 200;
- var wonLottery = true;
+ var gpa = 2.3;
 
+//if the gpa is over the min 2.0 score, the student can graduate
+/*if( gpa > 2.0){
+ console.log("You can graduate!");
+}else{
+ console.log("GPA is too low!");
+}*/
+//using the ternary operator you need to incorporate the ? and the : to compare between the two values
+ /*(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA is too low!");*/
 
- //if the price of the phone is less than our budget OR if we won the Lottery
- //we can only use && when comparing Boolean True or False statements YOU CANT use just numbers between && operator
- //the or operator || only needs ONE of the Boolean values to be true to run the code, unlike the && operator needed both Boolean values needed to be true.
- if(iPhone < budget || wonLottery){
-  console.log("We can buy the phone!");
+ var age = 6;
+ var book;
+
+ // if the child is under 10 they get green eggs and ham, otherwise they get The Time Machine
+
+ /* if(age <10){
+  book = "Green Eggs and Ham";
  }else{
-  console.log("No phone for you!");
- }
+  book = "The Time Machine";
+ }*/
+
+ book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+ console.log(book)
