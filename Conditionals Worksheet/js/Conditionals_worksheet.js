@@ -20,7 +20,7 @@ April 20th, 2015
   console.log("Your password does not match our records.");
   }else{
   welcome = true;
-  console.log("Welcome, " + correctUser + "!");
+  console.log("Welcome, " + correctUser + ", to our website!");
   }
 
 
