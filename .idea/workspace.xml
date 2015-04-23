@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Conditionals_Assignment.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Conditionals_Assignment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/Conditionals_Assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
+            <state vertical-scroll-proportion="0.2294455">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conditionals_Assignment.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conditionals_Assignment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js/Conditionals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7531993">
-              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="107" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -815,18 +815,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/Conditionals_Assignment.html">
+    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js/Conditionals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js/Conditionals_Assignment.js">
+    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/Conditionals_Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7531993">
-          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="107" />
+        <state vertical-scroll-proportion="0.2294455">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
