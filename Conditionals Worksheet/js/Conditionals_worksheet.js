@@ -7,7 +7,7 @@ April 20th, 2015
  */
 
  // Make sure the user has the correct name and password. Only one error message should appear
-
+/*
  var correctUser = "Eric";
  var correctPass = "Aidan";
  var secretCode = 1414;
@@ -20,12 +20,12 @@ April 20th, 2015
    console.log("User name not found. Please try again.");
   }else if(userPassWord != correctPass){
   console.log("Your password does not match our records.");
- }else if(userSecretCode != secretCode){
+  }else if(userSecretCode != secretCode){
   console.log("Your secret code does not match our records.");
   }else{
   welcome = true;
   console.log("Welcome, " + correctUser + ", to our website!");
   }
-
+*/
 
 
