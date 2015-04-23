@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Conditionals_Assignment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conditionals_Assignment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/Conditionals_Assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2294455">
+            <state vertical-scroll-proportion="-5.0">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conditionals_Assignment.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Conditionals_Assignment.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js/Conditionals_Assignment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.86288846">
+              <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -320,7 +320,7 @@
       <recent name="$PROJECT_DIR$/AssocatingJS2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Conditionals_worksheet.js">
+  <component name="RunManager" selected="Node.js.Conditionals_Assignment.js">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Wilson_Eric_WPF/AssocatingJS2/index.html">
       <method />
     </configuration>
@@ -328,6 +328,9 @@
       <method />
     </configuration>
     <configuration default="false" name="Conditionals_worksheet.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Conditionals_worksheet.js" working-dir="$PROJECT_DIR$/Conditionals Worksheet/js">
+      <method />
+    </configuration>
+    <configuration default="false" name="Conditionals_Assignment.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Conditionals_Assignment.js" working-dir="$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -377,19 +380,21 @@
     <configuration default="false" name="script.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="script.js" working-dir="$PROJECT_DIR$/Setup GitHub/js">
       <method />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Index.html (1)" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Index.html" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.script.js" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="4" class="java.lang.String" itemvalue="Node.js.script.js (1)" />
       <item index="5" class="java.lang.String" itemvalue="Node.js.Conditionals_worksheet.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.Conditionals_Assignment.js" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Conditionals_worksheet.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.script.js (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Conditionals_Assignment.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Conditionals_worksheet.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.script.js (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -531,6 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,6 +572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -594,6 +601,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -815,18 +823,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js/Conditionals_Assignment.js">
+    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/Conditionals_Assignment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/Conditionals_Assignment.html">
+    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Conditionals_Assignment/js/Conditionals_Assignment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2294455">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.86288846">
+          <caret line="67" column="62" selection-start-line="67" selection-start-column="62" selection-end-line="67" selection-end-column="62" />
           <folding />
         </state>
       </provider>

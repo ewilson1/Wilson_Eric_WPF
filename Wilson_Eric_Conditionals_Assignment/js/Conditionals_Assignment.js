@@ -31,7 +31,7 @@ alert("test to see if connected.")//They are connected
  var lake=prompt("Does your home have a Lakeside view?\nyes or no.");
  if(lake === "yes"){
   var lakePrice = 25000;
-  console.log("Add $25,000 dollars to the value of your home.")
+  console.log("Add $" +lakePrice+ " dollars to the value of your home.")
  }else{
   var noLakeView = 0;
   console.log("Does not have Lakeside view.")
@@ -42,18 +42,27 @@ alert("test to see if connected.")//They are connected
  var golf=prompt("Does your home have a golf course you can see from your property?\nyes or no.");
  if(golf === "yes"){
   var golfPrice = 50000;
-  console.log("Add $50,000 dollars to the value of your home.")
+  console.log("Add $" +golfPrice+ " dollars to the value of your home.")
  }else{
   var noGolfView = 0;
   console.log("Does not have a golf course view.")
  }
 
-//I took out the complicated yes or no for lake and golf, took up way too much code and didn't run properly
- //time to move on, if we need to know if they have one or the other we can come back to it later.
- //we are simply trying to find out how much they paid per square foot of their home, not if they are going to buy it or not-which in that case we would need to know how much they were going to pay.
+//This was the most complicated part of the assignment; finding which of the four values the user chose and apply that to the cost of the home. There were four parts 1)They had both views, 2)They had a lake view, but not a golf view, 3) They had a golf view, but not a lake view, and 4)They had neither of them. Getting the machine to get it right took some trial and error-and a lot of patience!!!
 
- var homePrice=prompt("How much did you pay for your home?");
+ //This part is important as the computer is not using comma's or decimals at this point in time, so everything had to be done straight across. A number such as 300000 would mean $300,000.00 for instance.
+ var homePrice=prompt("How much did you pay for your home?\nImportant! Do not use comma's or decimals.");
  console.log("Your home cost $" +homePrice+ " dollars");
 
- var luxuryItems= (lakePrice || noLakeView) || (golfPrice || noGolfView);
+//This (below) worked! This combination parsed what the user chose and applied it to the term "luxuryItems". FUN!!!! This is where we chose between four (4) different possibilities as mentioned above.
+ var luxuryItems = ((lakePrice || noLakeView)+(golfPrice || noGolfView));
   console.log("Your home has $" + luxuryItems + " dollars in luxury items.");
+
+//This (below) was a trip back to the start of this class; making sure we are adding numbers for a total cost.
+ var homeCost = parseInt(homePrice) + parseInt(luxuryItems);
+ console.log("Your home is now $" +homeCost+ " dollars.");
+
+ //Now, let's find out how much they paid for everything per square feet; and then run some other numbers to check it.
+
+ var homeFeet = parseInt(homeCost)/(area);
+ console.log("You paid $" +homeFeet+ " dollars per square foot")
