@@ -25,8 +25,16 @@ alert("test to see if connected.")//They are connected
  console.log("Your home is " + area + " square feet");
 
 //Time to add some features, such as a lake view. If they have one, it will add to the overall cost per square foot of the home.
+ //first we must add value to our new variables and declare them true
+
+ var lakePrice = 25000 && "yes";
+ var golfPrice = 50000 && "yes";
+
+ //then step through it with each luxury item
+
  var lake=prompt("Does your home have a Lakeside view?\nYes or No.");
  if(lake === "yes"){
+  lakePrice = 25000;
   console.log("Add $25,000 dollars to the value of your home.")
  }else{
   console.log("Does not have Lakeside view.")
@@ -36,25 +44,13 @@ alert("test to see if connected.")//They are connected
 
  var golf=prompt("Does your home have a golf course you can see from your property?\n Yes or No.");
  if(golf === "yes"){
+  golfPrice = 50000;
   console.log("Add $50,000 dollars to the value of your home.")
  }else{
   console.log("Does not have a golf course view.")
  }
 
- //Now, calculate (based on what we know so far about the lake and the golf views) the additional costs. Be careful var lakePrice = 25000 && "yes";here as if the condition is false it should not be added to the overall 'extras' value. Separating them is the key.
- //We must establish whether or not they have chosen 'yes' for either or 'no' for either or some combination
- var lakePrice = 25000 && "yes";
- var golfPrice = 50000 && "yes";
-
-if(lakePrice + golfPrice){
- console.log("Add $" +(lakePrice + golfPrice)+ " dollars in luxury items to your home."
-    }else if(!lakePrice);{
- console.log("Add $" +golfPrice+ " dollars in luxury items to your home.")
-    }else if(!golfPrice);{
-  console.log("Add $" +lakePrice+ " dollars in luxury items to your home.")
- }else{
-  console.log("There are no luxury items to add to your home.")
- }
+//I took out the complicated yes or no for lake and golf, took up way too much code and didn't run properly
 
 
  //var homePrice=prompt("How much did you pay for your home?")
