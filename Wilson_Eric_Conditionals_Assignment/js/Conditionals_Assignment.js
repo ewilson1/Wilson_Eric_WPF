@@ -78,8 +78,8 @@ alert("test to see if connected.")//They are connected
  //Your home is 60 feet long.
  //Your home is 30 feet wide.
  //Your home is 1800 square feet
- //Add $25000 dollars to the value of your home.
- //Add $50000 dollars to the value of your home.
+ //Add $25000 dollars to the value of your home.-Yes for the lake view
+ //Add $50000 dollars to the value of your home.-Yes for the golf view
  //Your home cost $300000 dollars
  //Your home has $75000 dollars in luxury items.
  //Your home is now $375000 dollars.
@@ -90,8 +90,8 @@ alert("test to see if connected.")//They are connected
  //Your home is 60 feet long.
 //Your home is 30 feet wide.
 //Your home is 1800 square feet
-//Add $25000 dollars to the value of your home.
-//Does not have a golf course view.
+//Add $25000 dollars to the value of your home.-Yes to the lake view
+//Does not have a golf course view.-No for the golf view
 //Your home cost $300000 dollars
 //Your home has $25000 dollars in luxury items.
 //Your home is now $325000 dollars.
@@ -102,8 +102,8 @@ alert("test to see if connected.")//They are connected
 //Your home is 60 feet long.
 //Your home is 30 feet wide.
 //Your home is 1800 square feet
-//Does not have Lakeside view.
-//Add $50000 dollars to the value of your home.
+//Does not have Lakeside view.-NO to the lake view
+//Add $50000 dollars to the value of your home.-Yes to the golf view
 //Your home cost $300000 dollars
 //Your home has $50000 dollars in luxury items.
 //Your home is now $350000 dollars.
@@ -112,14 +112,14 @@ alert("test to see if connected.")//They are connected
  //This time you paid more to have a golf view than a lake view. Each of the aforementioned used the same house (1800 square feet. Let's see what happens when we change those numbers around a bit. My guess, the larger the home for the same price will bring down the price per square foot.
 
  //Now I changed the size of the home, but kept the price the same and added both features (lake and golf) and still came up with a smaller number per square foot.
- //Your home is 80 feet long.
-//Your home is 60 feet wide.
-//Your home is 4800 square feet-HUGE HOUSE
+ //Your home is 80 feet long.-Changed the length
+//Your home is 60 feet wide.-Changed the width
+//Your home is 4800 square feet-HUGE HOUSE!!!
 //Add $25000 dollars to the value of your home.
 //Add $50000 dollars to the value of your home.
-//Your home cost $300000 dollars
+//Your home cost $300000 dollars-same price...
 //Your home has $75000 dollars in luxury items.
 //Your home is now $375000 dollars.
-//You paid $78.125 dollars per square foot
+//You paid $78.125 dollars per square foot-Now that's cheap for what you are getting.
 
  //Just look at the value you get for such a big house for the same price! Only $78.13 per square foot.
