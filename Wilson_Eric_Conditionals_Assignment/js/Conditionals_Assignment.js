@@ -65,4 +65,55 @@ alert("test to see if connected.")//They are connected
  //Now, let's find out how much they paid for everything per square feet; and then run some other numbers to check it.
 
  var homeFeet = parseInt(homeCost)/(area);
- console.log("You paid $" +homeFeet+ " dollars per square foot")
+ console.log("You paid $" +homeFeet+ " dollars per square foot");
+
+ //In the first try I got a number with 14 places past the decimal point. Working on rounding that one out.
+ //This is what I entered the first time, and everything worked just fine. Remember, I have four variables that needed to be parsed and I chose to use "yes" for the lake and golf questions for this round. This is my result.
+ //Your home is 60 feet long.
+ //Your home is 30 feet wide.
+ //Your home is 1800 square feet
+ //Add $25000 dollars to the value of your home.
+ //Add $50000 dollars to the value of your home.
+ //Your home cost $300000 dollars
+ //Your home has $75000 dollars in luxury items.
+ //Your home is now $375000 dollars.
+ //You paid $208.33333333333334 dollars per square foot
+
+ //The goal here is to find out what they paid in square feet for their home, and show how luxury items can add to the overall value of the home. Here is what you can expect to pay per square foot when I have a lake view, but not a golf view.
+
+ //Your home is 60 feet long.
+//Your home is 30 feet wide.
+//Your home is 1800 square feet
+//Add $25000 dollars to the value of your home.
+//Does not have a golf course view.
+//Your home cost $300000 dollars
+//Your home has $25000 dollars in luxury items.
+//Your home is now $325000 dollars.
+//You paid $180.55555555555554 dollars per square foot
+
+ //There is a difference of $27.78 to have a lake view but not a golf view. Now lets switch it around. A golf view, but not a lake view.
+
+//Your home is 60 feet long.
+//Your home is 30 feet wide.
+//Your home is 1800 square feet
+//Does not have Lakeside view.
+//Add $50000 dollars to the value of your home.
+//Your home cost $300000 dollars
+//Your home has $50000 dollars in luxury items.
+//Your home is now $350000 dollars.
+//You paid $194.44444444444446 dollars per square foot
+
+ //This time you paid more to have a golf view than a lake view. Each of the aforementioned used the same house (1800 square feet. Let's see what happens when we change those numbers around a bit. My guess, the larger the home for the same price will bring down the price per square foot.
+
+ //Now I changed the size of the home, but kept the price the same and added both features (lake and golf) and still came up with a smaller number per square foot.
+ //Your home is 80 feet long.
+//Your home is 60 feet wide.
+//Your home is 4800 square feet-HUGE HOUSE
+//Add $25000 dollars to the value of your home.
+//Add $50000 dollars to the value of your home.
+//Your home cost $300000 dollars
+//Your home has $75000 dollars in luxury items.
+//Your home is now $375000 dollars.
+//You paid $78.125 dollars per square foot
+
+ //Just look at the value you get for such a big house for the same price! Only $78.13 per square foot.
