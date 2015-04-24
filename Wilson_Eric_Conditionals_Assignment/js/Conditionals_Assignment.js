@@ -71,7 +71,7 @@ alert("test to see if connected.")//They are connected
  //Now, let's find out how much they paid for everything per square feet; and then run some other numbers to check it.
 
  var homeFeet = parseInt(homeCost)/(area);
- console.log("You paid $" +homeFeet+ " dollars per square foot");
+ console.log("You paid $" +homeFeet.toFixed(2)+ " dollars per square foot");
 
  //In the first try I got a number with 14 places past the decimal point. Working on rounding that one out.
  //This is what I entered the first time, and everything worked just fine. Remember, I have four variables that needed to be parsed and I chose to use "yes" for the lake and golf questions for this round. This is my result.
