@@ -16,13 +16,13 @@ alert("test to see if connected.")//They are connected
 //first of all, how long is the home?
  var length=prompt("Welcome! What is the length of your home in feet?");
  if(length==="" || isNaN(length)){
-  length = prompt("Please do not leave blank and only type in numbers:");
+  length = prompt("Please do not leave blank and only type in numbers.\nWhat is the length of your home?");
  }
   console.log("Your home is " + length + " feet long.");
 //then, how wide is it?
  var width=prompt("Now, what is the width of your home in feet?");
  if(width==="" || isNaN(width)){
-  width = prompt("Please do not leave blank and only type in numbers:");
+  width = prompt("Please do not leave blank and only type in numbers\nWhat is the width of your home?");
  }
   console.log("Your home is " + width + " feet wide.");
 //now calculate the area of the home.
