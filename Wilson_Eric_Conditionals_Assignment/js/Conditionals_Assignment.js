@@ -15,9 +15,15 @@ alert("test to see if connected.")//They are connected
 
 //first of all, how long is the home?
  var length=prompt("Welcome! What is the length of your home in feet?");
+ if(length==="" || isNaN(length)){
+  length = prompt("Please do not leave blank and only type in numbers:");
+ }
   console.log("Your home is " + length + " feet long.");
 //then, how wide is it?
  var width=prompt("Now, what is the width of your home in feet?");
+ if(width==="" || isNaN(width)){
+  width = prompt("Please do not leave blank and only type in numbers:");
+ }
   console.log("Your home is " + width + " feet wide.");
 //now calculate the area of the home.
  var area = length * width;
@@ -28,7 +34,7 @@ alert("test to see if connected.")//They are connected
 
  //then step through it with each luxury item
 
- var lake=prompt("Does your home have a Lakeside view?\nyes or no.");
+ var lake=prompt("Does your home have a Lakeside view?\nyes or no.\nAny answer that is not 'yes' or 'no' in lower case will produce a value of 'no'");
  if(lake === "yes"){
   var lakePrice = 25000;
   console.log("Add $" +lakePrice+ " dollars to the value of your home.")
@@ -39,7 +45,7 @@ alert("test to see if connected.")//They are connected
 
 //same thing here, just find out how much they paid in extras for the home. This will come up later in the code.
 
- var golf=prompt("Does your home have a golf course you can see from your property?\nyes or no.");
+ var golf=prompt("Does your home have a golf course you can see from your property?\nyes or no.\nAny answer that is not 'yes' or 'no' in lower case will produce a value of 'no'");
  if(golf === "yes"){
   var golfPrice = 50000;
   console.log("Add $" +golfPrice+ " dollars to the value of your home.")
@@ -51,7 +57,7 @@ alert("test to see if connected.")//They are connected
 //This was the most complicated part of the assignment; finding which of the four values the user chose and apply that to the cost of the home. There were four parts 1)They had both views, 2)They had a lake view, but not a golf view, 3) They had a golf view, but not a lake view, and 4)They had neither of them. Getting the machine to get it right took some trial and error-and a lot of patience!!!
 
  //This part is important as the computer is not using comma's or decimals at this point in time, so everything had to be done straight across. A number such as 300000 would mean $300,000.00 for instance.
- var homePrice=prompt("How much did you pay for your home?\nImportant! Do not use comma's or decimals.");
+ var homePrice=prompt("How much did you pay for your home?\nImportant!\nDo not use comma's or decimals\nExample $300,000 would be written 300000.");
  console.log("Your home cost $" +homePrice+ " dollars");
 
 //This (below) worked! This combination parsed what the user chose and applied it to the term "luxuryItems". FUN!!!! This is where we chose between four (4) different possibilities as mentioned above.
