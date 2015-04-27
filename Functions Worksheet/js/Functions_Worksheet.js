@@ -50,9 +50,11 @@ alert("test to see if they are connected.");
 
  //It takes 8.67 bee stings per pound to kill an animal. Calculate how many stings are needed to kill an animal of a certain weight in pounds.
 
- var total = killAnimal(8.67, 1000);//this is the function call or invoking from the arguments to the parameters. Now set up the parameters in the function killAnimal
+ var total = killAnimal(8.67, 244);//this is the function call or invoking from the arguments to the parameters. Now set up the parameters in the function killAnimal
 
  function killAnimal(s, p){//This is passing the arguments to the parameters s for sting and p for pounds.
+  var stings = s
+  var pounds = p
   var kill = s * p;
   return kill;//this spits the information out the the var total in the function call
  }
