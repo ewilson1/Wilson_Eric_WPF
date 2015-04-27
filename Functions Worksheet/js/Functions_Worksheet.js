@@ -10,7 +10,7 @@ Date
 
 alert("test to see if they are connected.");
  console.log("Test to see if they are connected");
- */
+
 
 //They are connected
 
@@ -27,4 +27,15 @@ alert("test to see if they are connected.");
  }
  var total = calcArea(30, 20);//function call
  console.log(total);//print out the result to the console to see if it's working.
+  */
 
+ //Circumference
+
+ var total = calcCircumference(15, 3.14);//function call
+
+ function calcCircumference(r, p){//
+  var circum = 2 * p * r;
+  return circum;
+ }
+
+ console.log("The circumference of the circle is " + total + ".");
