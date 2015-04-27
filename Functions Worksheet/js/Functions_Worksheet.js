@@ -29,13 +29,13 @@ alert("test to see if they are connected.");
  console.log(total);//print out the result to the console to see if it's working.
   */
 
- //Circumference
+ //Circumference, which, when you know the radius, is Circumference = 2 * pie * radius
 
- var total = calcCircumference(15, 3.14);//function call
+ var total = calcCircumference(15, 3.14);//function call or invoking the function with the arguments 15 for the radius and pie (3.14)
 
- function calcCircumference(r, p){//
-  var circum = 2 * p * r;
-  return circum;
+ function calcCircumference(r, p){//we have passed the information from the arguments to the parameters
+  var circumference = 2 * p * r;//even though pie is known as 3.14, we still had to add it to the arguments
+  return circumference;//this spits the information out to the var "total" in the function call
  }
 
- console.log("The circumference of the circle is " + total + ".");
+ console.log("The circumference of the circle is " + total + " inches.");//to see if we have done this right
