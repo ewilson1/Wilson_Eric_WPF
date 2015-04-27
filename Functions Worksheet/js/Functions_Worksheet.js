@@ -27,7 +27,8 @@ alert("test to see if they are connected.");
  }
  var total = calcArea(30, 20);//function call
  console.log(total);//print out the result to the console to see if it's working.
-  */
+
+--------
 
  //Circumference = 2 * pie * radius, so to find the circumference we need to apply C = 2 * pie * r. When we know the radius and we know the value for pie, the function needs to solve for
 
@@ -39,3 +40,22 @@ alert("test to see if they are connected.");
  }
 
  console.log("The circumference of the circle is " + total.toFixed(2) + " inches.");//to see if we have done this right and to round to the nearest two places past the decimal.
+
+ --------
+
+  */
+
+
+ //Stung!
+
+ //It takes 8.67 bee stings per pound to kill an animal. Calculate how many stings are needed to kill an animal of a certain weight in pounds.
+
+ var total = killAnimal(8.67, 1000);//this is the function call or invoking from the arguments to the parameters. Now set up the parameters in the function killAnimal
+
+ function killAnimal(s, p){//This is passing the arguments to the parameters s for sting and p for pounds.
+  var kill = s * p;
+  return kill;//this spits the information out the the var total in the function call
+ }
+
+ console.log("It takes " +total.toFixed(2)+ " bee stings to kill this animal.");//Now play around with the weight and double check with a calculator to see if this is true.\
+ //It works out to be true.
