@@ -14,4 +14,13 @@ alert("test to see if they are connected.");
 
 //They are connected
 
+//Here is an example that actually works. The example from the instructions don't.
+ var total = calcArea(30, 20);
+
+ function calcArea(w, h){
+ var area = w * h;
+ return area
+ }
+
+ console.log(total);
 
