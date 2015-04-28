@@ -63,5 +63,5 @@ alert("test to see if they are connected.");
  //This time I moved the call or invocation from before to after the parameters were set in place.
  //It still worked. So, Functions don't care if the invocation is before or after-that only matter with anonymous functions.
 
- console.log("It takes " +total.toFixed(2)+ " bee stings to kill this animal.");//Now play around with the weight and double check with a calculator to see if this is true.\
+ console.log("It takes " +total.toFixed(2)+ " bee stings to kill this animal.");//Now play around with the weight and double check with a calculator to see if this is true.
  //It works out to be true.
