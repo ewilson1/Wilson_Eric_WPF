@@ -18,10 +18,15 @@ alert("Test to see if they are connected.");
 
  alert("Welcome to Florida, it gets steamy here!\nLet's find out how many air conditioners you need to cool your home.\n-----\nTake notice: each air conditioner can effectively cool 5,000 cubic feet per house.");
 
- //var livArray = [livLength, livWidth, livHeight];
+ var livArray = [livLength, livWidth, livHeight];
 
  var livLength=prompt("Let's start with the length of your living room in feet?");
-while (livLength==="" || isNaN(livLength)){
-  livLength = prompt("Please do not leave blank and only type in numbers.\nWhat is length of your living room in feet?");
- console.log("Your living room is " +livLength+ " feet long.");
+while (livLength==="" || isNaN(livLength)) {
+ livLength = prompt("Please do not leave blank and only type in numbers.\nWhat is length of your living room in feet?");
+ console.log("Your living room is " + livLength + " feet long.");
+}
+ var livWidth=prompt("Let's start with the length of your living room in feet?");
+ while (livWidth==="" || isNaN(livWidth)){
+  livWidth = prompt("Please do not leave blank and only type in numbers.\nWhat is length of your living room in feet?");
+  console.log("Your living room is " +livWidth+ " feet wide.");
  }
