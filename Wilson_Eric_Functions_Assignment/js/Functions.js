@@ -16,10 +16,10 @@ alert("Test to see if they are connected.");
 
 //Build a calculator. You need 1 Normal function, and 1 Anonymous function which must use arguments and parameters. Each function must contain at least 3 parameters. A value must be returned for each function and saved in a variable in the main code. Must pass arguments to the parameters. All user prompts must be validated using a while loop.
 
- alert("Welcome to Florida, it gets steamy here!\nLet's find out how many air conditioners you need to cool your home.\n-----\nTake notice: each air conditioner can effectively cool 5,000 cubic feet per house.");
+ alert("Welcome to Florida, it gets steamy here!\nLet's find out how many air conditioners you need to cool your home.\n-----\nTake notice: each air conditioner can effectively cool 3,000 cubic feet per house.");
 //Set up the total value for each air conditioner as a variable for the main code. The main code is saved for after we have all three variables from the user's input.
 
-var airCond = 2000;
+var airCond = 3000;
 
 //Make sure to validate the prompts with a while loop
  var livLength=prompt("Let's start with the length of your living room in feet?");
@@ -79,7 +79,7 @@ var airCond = 2000;
  alert("Now, lets move on the other rooms of the home\nLet's start with the bedroom.");
 
  //Make sure to validate the prompts with a while loop
- var room1Length=prompt("Let's start with the length of your Bed room in feet?");
+ var room1Length=prompt("Let's start with the length of your Bedroom in feet?");
  while (room1Length==="" || isNaN(room1Length)) {
   room1Length = prompt("Please do not leave blank and only type in numbers.\nHow long is your Bedroom?");
  }
@@ -95,7 +95,7 @@ var airCond = 2000;
  console.log("Your Bedroom is " +room1Width+ " feet wide.");
 
  //Validate with a while loop
- var room1Height=prompt("Finally, what is the height of your living room in feet?");
+ var room1Height=prompt("Finally, what is the height of your Bedroom in feet?");
  while (room1Height==="" || isNaN(room1Height)) {
   room1Height = prompt("Please do not leave blank and only type in numbers.\nHow high is your Bedroom?");
  }
@@ -111,9 +111,53 @@ var airCond = 2000;
   areaRoom1 = l * w * h;
   return areaRoom1;
  }
- //the return, spits the information out to the var totalLiv, and is now ready to perform additional calculations.
+ //the return, spits the information out to the totalRoom1 (the Bedroom)
+ //notice how we are able to use the same variables within the code!
 
  //Now, print out the results of both the living room and Bedroom and see how much room you have.
  console.log("Your Bedroom is " +totalRoom1+ " cubic feet.");
  console.log("You have " +(airCond - totalLiv -totalRoom1)+ " cubic feet left.");
 
+//----- Time for another room-------
+
+ alert("Now, lets move on the other rooms of the home\nLet's move to the 2nd room.");
+
+ //Make sure to validate the prompts with a while loop
+ var room2Length=prompt("Let's start with the length of this room?");
+ while (room2Length==="" || isNaN(room2Length)) {
+  room2Length = prompt("Please do not leave blank and only type in numbers.\nHow long is your 2nd room?");
+ }
+ //Find out what the length of the Bed room is in cubic feet.
+ console.log("Your 2nd room is " + room2Length + " feet long.");
+
+ //Validate with a while loop.
+ var room2Width=prompt("Now, what is the width of this room?");
+ while (room2Width==="" || isNaN(room2Width)){
+  room2Width = prompt("Please do not leave blank and only type in numbers.\nHow wide is your 2nd room?");
+ }
+ //Now we have the width of the room in cubic feet.
+ console.log("Your 2nd room is " +room2Width+ " feet wide.");
+
+ //Validate with a while loop
+ var room2Height=prompt("Finally, what is the height of this room?");
+ while (room2Height==="" || isNaN(room2Height)) {
+  room2Height = prompt("Please do not leave blank and only type in numbers.\nHow high is your 2nd room?");
+ }
+ //Finally we have the last integer to find the cubic feet of the Bed room.
+ console.log("Your 2nd room is " + room2Height + " feet high.");
+
+ //Set the Bedroom function call
+
+ var totalRoom2 = calcRoom2 (room2Length, room2Width, room2Height);
+
+ //now pass the arguments to the parameters below
+ function calcRoom2 (l,w,h){
+  areaRoom2 = l * w * h;
+  return areaRoom2;
+ }
+ //the return, spits the information out to the totalRoom1
+ //notice how we are able to use the same variables within the code!
+
+ //Now, print out the results of both the living room and Bedroom and see how much room you have.
+ console.log("Your 2nd room is " +totalRoom2+ " cubic feet.");
+ console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2)+ " cubic feet left.");
