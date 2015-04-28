@@ -16,10 +16,11 @@ alert("Test to see if they are connected.");
 
 //Build a calculator. You need 1 Normal function, and 1 Anonymous function which must use arguments and parameters. Each function must contain at least 3 parameters. A value must be returned for each function and saved in a variable in the main code. Must pass arguments to the parameters. All user prompts must be validated using a while loop.
 
- alert("Welcome to Florida, it gets steamy here!\nLet's find out how many air conditioners you need to cool your home.\n-----\nTake notice: each air conditioner can effectively cool 3,000 cubic feet per house.");
+ alert("Welcome to Florida, it gets steamy here!\nLet's find out how many air conditioners you need to cool your home.\n-----\nTake notice: each air conditioner can effectively cool 2,500 cubic feet per house.");
 //Set up the total value for each air conditioner as a variable for the main code. The main code is saved for after we have all three variables from the user's input.
 
-var airCond = 3000;
+var airCond = 2500;
+console.log("You can cool up to 2,500 cubic feet of air with one air conditioner.");
 
 //Make sure to validate the prompts with a while loop
  var livLength=prompt("Let's start with the length of your living room in feet?");
@@ -64,14 +65,14 @@ var airCond = 3000;
 
  //Or...we could do this. "You have " +(airCond - totalLiv -totalRoom1 -totalRoom2...) and so on. We will just have to see.
 
- /*
+ /*The anonymous function might look something like this at the end...
  var totalAirConditioner = function(areaLiv, areaRoom1, areaRoom2, areaRoom3, areaBath1, areaBath2, areaGarage) {
   var totalArea = (totalLiv + totalRoom1 + totalRoom2 + totalRoom3 + totalBath1 + totalBath2 + totalGarage);
   return totalArea;
  }*/
 
 // -------
- //Now repeat for each room in the home. If they come to a question regarding the amount of rooms-this could be where we place an anonymous function into the code-such as 'no', we can continue to the next set of questions such as a garage or Florida room. If they have neither, or they don't want to condition the air in the following rooms we will know how many air conditioners they need at the end.
+ //Now repeat for each room in the home. If they come to a question regarding the amount of rooms-this could be where we place an anonymous function into the code-such as 'no', we can continue to the next set of questions such as a garage or Florida room. If they have neither, or they don't want to condition the air in the following rooms we will know how many air conditioners they need at the end. Time will tell if we can pull this off.
 // -------
 
  //Now on to the other rooms of the home, for brevity lets assume this is a 3 bedroom, 2 bath with a Garage.
@@ -205,3 +206,46 @@ var airCond = 3000;
  //Now, print out the results and see how much room you have.
  console.log("Your 3rd room is " +totalRoom3+ " cubic feet of air to cool in this room.");
  console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3)+ " cubic feet of air left to cool the home.");
+
+ //-----Time for the first Bath room------
+
+ alert("Now, let's move to the first bath room.");
+
+ //Make sure to validate the prompts with a while loop
+ var room4Length=prompt("Let's start with the length of the 1st bath?");
+ while (room4Length==="" || isNaN(room4Length)) {
+  room4Length = prompt("Please do not leave blank and only type in numbers.\nHow long is your 1st bath room?");
+ }
+ //Find out what the length of the bath room is in cubic feet.
+ console.log("Your 1st bath room is " + room4Length + " feet long.");
+
+ //Validate with a while loop.
+ var room4Width=prompt("Now, what is the width of the 1st bath?");
+ while (room4Width==="" || isNaN(room4Width)){
+  room4Width = prompt("Please do not leave blank and only type in numbers.\nHow wide is your 1st bath room?");
+ }
+ //Now we have the width of the room in cubic feet.
+ console.log("Your 1st bath room is " +room4Width+ " feet wide.");
+
+ //Validate with a while loop
+ var room4Height=prompt("Finally, what is the height of the 1st bath?");
+ while (room4Height==="" || isNaN(room4Height)) {
+  room4Height = prompt("Please do not leave blank and only type in numbers.\nHow high is your 1st bath room?");
+ }
+ //Finally we have the last integer to find the cubic feet of this room
+ console.log("Your 1st bath room is " + room4Height + " feet high.");
+
+ //Set the Bathroom function call
+
+ var totalRoom4 = calcRoom4 (room4Length, room4Width, room4Height);
+
+ //now pass the arguments to the parameters below
+ function calcRoom4 (l,w,h){
+  areaRoom4 = l * w * h;
+  return areaRoom4;
+ }
+ //the return, spits the information out to the totalRoom4
+
+ //Now, print out the results and see how much room you have.
+ console.log("Your 1st bath room is " +totalRoom4+ " cubic feet of air to cool in this room.");
+ console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3 - totalRoom4)+ " cubic feet of air left to cool the home.");
