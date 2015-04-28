@@ -23,21 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Functions.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Functions.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Wilson_Eric_Functions_Assignment/Functions.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2294455">
+            <state vertical-scroll-proportion="-5.0">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Functions.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Wilson_Eric_Functions_Assignment/js/Functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="246" column="58" selection-start-line="246" selection-start-column="58" selection-end-line="246" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.39670932">
+              <caret line="297" column="52" selection-start-line="297" selection-start-column="52" selection-end-line="297" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -850,18 +850,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Functions_Assignment/js/Functions.js">
+    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Functions_Assignment/Functions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="246" column="58" selection-start-line="246" selection-start-column="58" selection-end-line="246" selection-end-column="58" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Functions_Assignment/Functions.html">
+    <entry file="file://$PROJECT_DIR$/Wilson_Eric_Functions_Assignment/js/Functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2294455">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.39670932">
+          <caret line="297" column="52" selection-start-line="297" selection-start-column="52" selection-end-line="297" selection-end-column="52" />
           <folding />
         </state>
       </provider>
