@@ -1,18 +1,14 @@
+/*
+ Eric Wilson
+ SDI Section 01
+ Functions Assignment
+ April 28th, 2015
 
- /*
-Eric Wilson
-SDI Section 01
-Functions Assignment (test)
-April 28th, 2015
-
- 
-
-
-alert("Test to see if they are connected.");
+ alert("Test to see if they are connected.");
  console.log("Test to see if they are connected.");
-//They are connected.
- */
+ //They are connected.
 
+ */
 
 //Build a calculator. You need 1 Normal function, and 1 Anonymous function which must use arguments and parameters. Each function must contain at least 3 parameters. A value must be returned for each function and saved in a variable in the main code. Must pass arguments to the parameters. All user prompts must be validated using a while loop.
 
@@ -301,15 +297,21 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
   console.log("You will need another " +coolGarage+ " cubic feet to cool the Garage.")
  }else {
   var noGarage = 0;
-  console.log("You do not want to cool your Garage.")
-
+  console.log("You do not want to cool your Garage.");
 
   //Now, print out to see how the Garage effects the outcome
 
-  console.log("Your Garage has " + (coolGarage = true || noGarage) + " of additional cubic feet of air to cool the Garage.");
-  console.log("You have " + (airCond - totalLiv - totalRoom1 - totalRoom2 - totalRoom3 - totalRoom4 - totalRoom5 - (coolGarage) + " cubic feet of air left to cool the home."));
+  console.log("Your Garage has " + (coolGarage || noGarage) + " of additional cubic feet of air to cool.");
+  console.log("You have " + (airCond - totalLiv - totalRoom1 - totalRoom2 - totalRoom3 - totalRoom4 - totalRoom5 - (coolGarage || noGarage) + " cubic feet of air left to cool the home."));
  }
 
  //Now time for closure or the anonymous function
+ //First we must define the function, then we can call it. Not the other way around.
 
- 
+var airCondArea = function(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRoom4, totalRoom5, coolGarage ){
+  if(airCondArea <= 2500){
+  console.log("You don't need another air conditioner. The one you have is fine.");
+ }else{
+  console.log("You need another air conditioner. You'll thank me later this summer.");
+ }
+

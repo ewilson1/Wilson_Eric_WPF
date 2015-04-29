@@ -1,5 +1,4 @@
-
- /*
+/*
 Eric Wilson
 SDI Section 01
 Conditionals Assignment
