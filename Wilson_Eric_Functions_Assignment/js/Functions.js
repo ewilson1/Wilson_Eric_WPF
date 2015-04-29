@@ -61,7 +61,7 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
 //the return, spits the information out to the var totalLiv, and is now ready to perform additional calculations.
 
  //Now, print out the results of the living room and see how much room you have for extra rooms.
- console.log("Your living room is " +totalLiv+ " cubic feet of air to cool in this room.");
+ console.log("Your living room has " +totalLiv+ " cubic feet of air to cool in this room.");
  console.log("You have " +(airCond - totalLiv)+ " cubic feet of air left to cool the Living Room.");
 
 // -------
@@ -284,7 +284,6 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
 
  //Now, print out the results and see how much room you have.
  console.log("Your other bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3 - totalRoom4 -totalRoom5)+ " cubic feet of air left to cool the home.");
 
 //--------
  //Now time for closure or the anonymous function
@@ -303,19 +302,11 @@ console.log("All the rooms add up to " +a+ " cubic feet.");//logging all the roo
 //Now let's see if you need another air conditioner.
 //we will need to run a ternary to find the answer.
 
-//Ternary is (condition to test) ? code to run if true : code to run if false ;
-
-//Example:
-
-//var x = 6;
-
-//(x>=5) ? console.log("x is greater than or equal to 5") : console.log("x is less 5");
-
 var acNeed = (parseInt(a));
 (acNeed <= 2500) ? console.log("You have what you need. Enjoy Florida!") : console.log("You will need another air conditioner; you will thank me later");
 
 
-//-----Comments and test values-----
+//-----Comments and test values-----//
 
 //The first go round had some nice size rooms, but it was still enough to be handled by one air conditioner.
     //You can cool up to 2,500 cubic feet of air with one air conditioner.
@@ -351,3 +342,40 @@ var acNeed = (parseInt(a));
     //You have 151 cubic feet of air left to cool the home.
     //All the rooms add up to 2349 cubic feet.
     //You have what you need. Enjoy Florida!
+
+//Now lets use a big House...with big rooms and make sure we get the right suggestion at the end.
+
+//You can cool up to 2,500 cubic feet of air with one air conditioner.
+//Your living room is 12 feet long.
+//Your living room is 12 feet wide.
+//Your living room is 12 feet high.
+//Your living room has 1728 cubic feet of air to cool in this room.
+//You have 772 cubic feet of air left to cool the Living Room.
+//Your Bedroom is 7 feet long.
+//Your Bedroom is 7 feet wide.
+//Your Bedroom is 9 feet high.
+//Your Bedroom has 441 cubic feet of air to cool in this room.
+//You have 331 cubic feet of air left to cool the home.
+//Your 2nd room is 7 feet long.
+//Your 2nd room is 7 feet wide.
+//Your 2nd room is 9 feet high.
+//Your 2nd room has 441 cubic feet of air to cool in this room.
+//You have -110 cubic feet of air left to cool the home.-I don't like negative results...they don't mean anything
+//Your 3rd room is 5 feet long.
+//Your 3rd room is 5 feet wide.
+//Your 3rd room is 7 feet high.
+//Your 3rd room has 175 cubic feet of air to cool in this room.
+//You have -285 cubic feet of air left to cool the home.-I don't like negative results...they don't mean anything
+//Your 1st bath room is 5 feet long.
+//Your 1st bath room is 7 feet high.
+//Your 1st bath room has 140 cubic feet of air to cool in this room.
+//You have -425 cubic feet of air left to cool the home.-I don't like negative results...they don't mean anything
+//Your other bath room is 5 feet long.
+//Your other bath room is 4 feet wide.
+//Your other bath room is 7 feet high.
+//Your other bath room has 140 cubic feet of air to cool in this room.
+//You have -565 cubic feet of air left to cool the home.-I don't like negative results...they don't mean anything
+//All the rooms add up to 3065 cubic feet.
+//You will need another air conditioner; you will thank me later
+
+//SO this last go round had a Huge house, and produced the result I wanted (another air conditioner). Going to work on getting the negative numbers make more sense. Ternary?!
