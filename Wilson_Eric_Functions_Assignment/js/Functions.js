@@ -13,8 +13,14 @@ April 28th, 2015
 
 //Build a calculator. You need 1 Normal function, and 1 Anonymous function which must use arguments and parameters. Each function must contain at least 3 parameters. A value must be returned for each function and saved in a variable in the main code. Must pass arguments to the parameters. All user prompts must be validated using a while loop.
 
+//Since everyone has at least a Living Room and a Bedroom with at least one bath, we might need to enter some code that allows us to skip to the next 'set' of questions regarding rooms. I have written this out for a 3 bedroom and 2 bath home with a living room. Not everyone has that, so my goal is to work something in here to allow us to jump. Time will tell. Let's build the backbone first, and include the Anonymous function at the end or 'closure' to the code.
+
  alert("Welcome to Florida, it gets steamy here!\nLet's find out how many air conditioners you need to cool your home.\n-----\nTake notice: each air conditioner can effectively cool 2,500 cubic feet per house.");
 //Set up the total value for each air conditioner as a variable for the main code. The main code is saved for after we have all three variables from the user's input.
+
+//Let's start with a fictitious number that we can deal with regarding cooling a home. I know BTU's are measured differently when cooling a home; but that is not the purpose of this code. I have friends who need two air conditioners because they have an upstairs with extra rooms in it. I always wanted to know if I added another air conditioner if that would be overkill. Hopefully this code answers that.
+
+//Lets say the air conditioner can cool up to 2500 cubic feet, for a starting point.
 
 var airCond = 2500;
 console.log("You can cool up to 2,500 cubic feet of air with one air conditioner.");
@@ -58,21 +64,11 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  console.log("Your living room is " +totalLiv+ " cubic feet of air to cool in this room.");
  console.log("You have " +(airCond - totalLiv)+ " cubic feet of air left to cool the home.");
 
- // We need to keep the result from the last calculation to refer to in the following room calculations. Could this be where we enter our anonymous function? Let's try it and see later in the program.
-
- //Or...we could do this. "You have " +(airCond - totalLiv -totalRoom1 -totalRoom2...) and so on. We will just have to see.
-
- //The anonymous function might look something like this at the end...
- //var totalAirConditioner = function(areaLiv, areaRoom1, areaRoom2, areaRoom3, areaBath1, areaBath2, areaGarage) {
-  //var totalArea = (totalLiv + totalRoom1 + totalRoom2 + totalRoom3 + totalBath1 + totalBath2 + totalGarage);
-  //return totalArea;
- //}
-
 // -------
- //Now repeat for each room in the home. If they come to a question regarding the amount of rooms-this could be where we place an anonymous function into the code-such as 'no', we can continue to the next set of questions such as a garage or Florida room. If they have neither, or they don't want to condition the air in the following rooms we will know how many air conditioners they need at the end. Time will tell if we can pull this off.
+ //Now repeat for each room in the home. If they come to a question regarding the amount of rooms-this could be where we place an anonymous function into the code-such as 'no'. Time will tell. Let's finish building the backbone before we try skipping code.
 // -------
 
- //Now on to the other rooms of the home, for brevity lets assume this is a 3 bedroom, 2 bath with a Garage.
+ //Now on to the other rooms of the home, for completeness lets assume this is a 3 bedroom and 2 baths. Again, if they have less (and if I have managed my time) we can work on that later.
 
  alert("Now, lets move on the other rooms of the home\nLet's start with the bedroom.");
 
@@ -290,26 +286,12 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  console.log("Your other bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
  console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3 - totalRoom4 -totalRoom5)+ " cubic feet of air left to cool the home.");
 
- //-----Time for the Garage------
-
- var garage=prompt("Do you want to cool your Garage?\nyes or no.\nAny answer that is not 'yes' or 'no' in lower case will produce a value of 'no'");
- if(garage === "yes"){
-  var coolGarage = 900;//this is the cubic feet of the garage(10x10x9)
-  console.log("You want to cool the Garage.")
- }else {
-  var noGarage = 0;
-  console.log("You do not want to cool your Garage.");
-
-  //Now, print out to see how the Garage effects the outcome
-  console.log("Your Garage has " + (coolGarage || noGarage) + " of additional cubic feet of air to cool.");
-  console.log("You have " + (airCond - totalLiv - totalRoom1 - totalRoom2 - totalRoom3 - totalRoom4 - totalRoom5 -(coolGarage || noGarage) + " cubic feet of air left to cool the home."));
- }
-
+//--------
  //Now time for closure or the anonymous function
  //First we must define the function, then we can call it. Not the other way around.
 
 var airCondArea = function(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRoom4, totalRoom5){
- var acArea = airCond - totalLiv - totalRoom1 - totalRoom2 - totalRoom3 - totalRoom4 - totalRoom5;
+ var acArea = totalLiv + totalRoom1 + totalRoom2 + totalRoom3 + totalRoom4 + totalRoom5;
  return acArea
 };
 //now call the function
@@ -318,22 +300,10 @@ var a = airCondArea(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRoom4,tot
 
 console.log("All the rooms add up to " +a+ " square feet.");//logging all the rooms
 
-//Now, lets add the garage option------------------
+//Now let's see if you need another air conditioner.
 
-var airCondArea2 = function(coolgarge, noGarage){
- var acArea2 = coolGarage * noGarage;
- return acArea2
- };
-//now call the function
-
-var b = airCondArea2(coolGarage || noGarage);//invoking the garage value, if it is true
-
-console.log("Your garage option means you need another " +b+ " cubic feet to cool.");//logging the garage option
-
-//Now add the garage area to the rooms area to see if you need another air conditioner.
-
-if((a + b) <= 2500){
- console.log("You have " +a+ " square feet left to cool your home. You have what you need.")
+if(parseInt(a) <= 2500){
+ console.log("You have " +(parseInt(a) - 2500)+ " square feet left to cool your home. You have what you need.")
 }else{
- console.log("You have " +(a + b)+ " square feet to cool. You will need another air conditioner; you will thank me later");
+ console.log("You will need another air conditioner; you will thank me later");
  }
