@@ -295,43 +295,21 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
 
  //-----Time for the Garage------
 
- var garage=prompt("Do you want to cool your Garage?");
+ var garage=prompt("Do you want to cool your Garage?\nyes or no.\nAny answer that is not 'yes' or 'no' in lower case will produce a value of 'no'");
+ if(garage === "yes"){
+  var coolGarage = 900;//this is the cubic feet of the garage(10x10x9)
+  console.log("You will need another " +coolGarage+ " cubic feet to cool the Garage.")
+ }else {
+  var noGarage = 0;
+  console.log("You do not want to cool your Garage.")
 
- //Make sure to validate the prompts with a while loop
- var room5Length=prompt("Let's start with the length of the other bath?");
- while (room5Length==="" || isNaN(room5Length)) {
-  room5Length = prompt("Please do not leave blank and only type in numbers.\nHow long is your other bath room?");
+
+  //Now, print out to see how the Garage effects the outcome
+
+  console.log("Your Garage has " + (coolGarage = true || noGarage) + " of additional cubic feet of air to cool the Garage.");
+  console.log("You have " + (airCond - totalLiv - totalRoom1 - totalRoom2 - totalRoom3 - totalRoom4 - totalRoom5 - (coolGarage) + " cubic feet of air left to cool the home."));
  }
- //Find out what the length of the bath room is in cubic feet.
- console.log("Your other bath room is " + room5Length + " feet long.");
 
- //Validate with a while loop.
- var room5Width=prompt("Now, what is the width of the other bath?");
- while (room5Width==="" || isNaN(room5Width)){
-  room5Width = prompt("Please do not leave blank and only type in numbers.\nHow wide is your other bath room?");
- }
- //Now we have the width of the room in cubic feet.
- console.log("Your other bath room is " +room5Width+ " feet wide.");
+ //Now time for closure or the anonymous function
 
- //Validate with a while loop
- var room5Height=prompt("Finally, what is the height of the other bath?");
- while (room5Height==="" || isNaN(room5Height)) {
-  room5Height = prompt("Please do not leave blank and only type in numbers.\nHow high is your other bath room?");
- }
- //Finally we have the last integer to find the cubic feet of this room
- console.log("Your other bath room is " + room5Height + " feet high.");
-
- //Set the other Bathroom function call
-
- var totalRoom5 = calcRoom5 (room5Length, room5Width, room5Height);
-
- //now pass the arguments to the parameters below
- function calcRoom5 (l,w,h){
-  areaRoom5 = l * w * h;
-  return areaRoom5;
- }
- //the return, spits the information out to the totalRoom5
-
- //Now, print out the results and see how much room you have.
- console.log("Your other bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3 - totalRoom4 -totalRoom5)+ " cubic feet of air left to cool the home.");
+ 
