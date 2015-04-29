@@ -62,7 +62,7 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
 
  //Now, print out the results of the living room and see how much room you have for extra rooms.
  console.log("Your living room is " +totalLiv+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv)+ " cubic feet of air left to cool the home.");
+ console.log("You have " +(airCond - totalLiv)+ " cubic feet of air left to cool the Living Room.");
 
 // -------
  //Now repeat for each room in the home. If they come to a question regarding the amount of rooms-this could be where we place an anonymous function into the code-such as 'no'. Time will tell. Let's finish building the backbone before we try skipping code.
@@ -298,12 +298,20 @@ var airCondArea = function(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRo
 
 var a = airCondArea(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRoom4,totalRoom5);//invoking all the rooms
 
-console.log("All the rooms add up to " +a+ " square feet.");//logging all the rooms
+console.log("All the rooms add up to " +a+ " cubic feet.");//logging all the rooms
 
 //Now let's see if you need another air conditioner.
+//we will need to run a ternary to find the answer.
 
-if(parseInt(a) <= 2500){
- console.log("You have " +(parseInt(a) - 2500)+ " square feet left to cool your home. You have what you need.")
-}else{
- console.log("You will need another air conditioner; you will thank me later");
- }
+//Ternary is (condition to test) ? code to run if true : code to run if false ;
+
+//Example:
+
+//var x = 6;
+
+//(x>=5) ? console.log("x is greater than or equal to 5") : console.log("x is less 5");
+
+var acNeed = (parseInt(a));
+(acNeed <= 2500) ? console.log("You have what you need. Enjoy Florida!") : console.log("You will need another air conditioner; you will thank me later");
+
+
