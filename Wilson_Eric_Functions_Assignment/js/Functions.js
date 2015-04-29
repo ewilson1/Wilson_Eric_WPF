@@ -315,3 +315,39 @@ var acNeed = (parseInt(a));
 (acNeed <= 2500) ? console.log("You have what you need. Enjoy Florida!") : console.log("You will need another air conditioner; you will thank me later");
 
 
+//-----Comments and test values-----
+
+//The first go round had some nice size rooms, but it was still enough to be handled by one air conditioner.
+    //You can cool up to 2,500 cubic feet of air with one air conditioner.
+    //Your living room is 10 feet long.
+    //Your living room is 10 feet wide.
+    //Your living room is 9 feet high.
+    //Your living room is 900 cubic feet of air to cool in this room.
+    //You have 1600 cubic feet of air left to cool the home.
+    //Your Bedroom is 6 feet long.
+    //Your Bedroom is 6 feet wide.
+    //Your Bedroom is 9 feet high.
+    //Your Bedroom has 324 cubic feet of air to cool in this room.
+    //You have 1276 cubic feet of air left to cool the home.
+    //Your 2nd room is 7 feet long.
+    //Your 2nd room is 7 feet wide.
+    //Your 2nd room is 9 feet high.
+    //Your 2nd room has 441 cubic feet of air to cool in this room.
+    //You have 835 cubic feet of air left to cool the home.
+    //Your 3rd room is 6 feet long.
+    //Your 3rd room is 6 feet wide.
+    //Your 3rd room is 9 feet high.
+    //Your 3rd room has 324 cubic feet of air to cool in this room.
+    //You have 511 cubic feet of air left to cool the home.
+    //Your 1st bath room is 5 feet long.
+    //Your 1st bath room is 4 feet wide.
+    //Your 1st bath room is 9 feet high.
+    //Your 1st bath room has 180 cubic feet of air to cool in this room.
+    //You have 331 cubic feet of air left to cool the home.
+    //Your other bath room is 5 feet long.
+    //Your other bath room is 4 feet wide.
+    //Your other bath room is 9 feet high.
+    //Your other bath room has 180 cubic feet of air to cool in this room.
+    //You have 151 cubic feet of air left to cool the home.
+    //All the rooms add up to 2349 cubic feet.
+    //You have what you need. Enjoy Florida!
