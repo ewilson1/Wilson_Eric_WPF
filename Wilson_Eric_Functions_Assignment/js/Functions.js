@@ -268,9 +268,6 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  //Finally we have the last integer to find the cubic feet of this room
  console.log("Your other bath room is " + room5Height + " feet high.");
 
-//Now, print out the results.
-console.log("Your 2nd bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
-
  //Set the other Bathroom function call
 
  var totalRoom5 = calcRoom5 (room5Length, room5Width, room5Height);
@@ -282,6 +279,8 @@ console.log("Your 2nd bath room has " +totalRoom5+ " cubic feet of air to cool i
  }
  //the return, spits the information out to the totalRoom5
 
+//Now, print out the results.
+console.log("Your 2nd bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
 
 //--------
  //Now time for closure or the anonymous function
@@ -376,4 +375,34 @@ var acNeed = (parseInt(a));
 //All the rooms add up to 3065 cubic feet.
 //You will need another air conditioner; you will thank me later
 
-//SO this last go round had a Huge house, and produced the result I wanted (another air conditioner). Going to work on getting the negative numbers make more sense. Ternary?!
+//SO this last go round had a Huge house, and produced the result I wanted (another air conditioner). Going to work on getting the negative numbers make more sense. Ternary?! NOPE
+
+//You can cool up to 2,500 cubic feet of air with one air conditioner.
+//Your living room is 10 feet long.
+//Your living room is 10 feet wide.
+//Your living room is 9 feet high.
+//Your living room has 900 cubic feet of air to cool in this room.
+//Your Bedroom is 9 feet long.
+//Your Bedroom is 9 feet wide.
+//Your Bedroom is 9 feet high.
+//Your Bedroom has 729 cubic feet of air to cool in this room.
+//Your 2nd room is 7 feet long.
+//Your 2nd room is 7 feet wide.
+//Your 2nd room is 9 feet high.
+//Your 2nd room has 441 cubic feet of air to cool in this room.
+//Your 3rd room is 5 feet long.
+//Your 3rd room is 5 feet wide.
+//Your 3rd room is 9 feet high.
+//Your 3rd room has 225 cubic feet of air to cool in this room.
+//Your 1st bath room is 4 feet long.
+//Your 1st bath room is 4 feet wide.
+//Your 1st bath room is 7 feet high.
+//Your 1st bath room has 112 cubic feet of air to cool in this room.
+//Your other bath room is 4 feet long.
+//Your other bath room is 4 feet wide.
+//Your other bath room is 7 feet high.
+//Your 2nd bath room has 112 cubic feet of air to cool in this room.
+//All the rooms add up to 2519 cubic feet.
+//You will need another air conditioner; you will thank me later
+
+//---Ok, in this last version it is much cleaner with the feedback. No negative statements. What was most important is the end result; Do you need another air conditioner or not? So I eliminated the unnecessary totals and made the responses usable information. Still want to accomplish the ability to choose to move to the next function if they don't have any more rooms and need to move to bathrooms; and should they have only one bathroom they can move to the resultant answer.
