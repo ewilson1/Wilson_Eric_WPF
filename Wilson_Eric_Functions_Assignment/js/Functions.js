@@ -295,7 +295,7 @@ var airCondArea = function(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRo
 };
 //now call the function
 
-var a = airCondArea(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRoom4,totalRoom5);//invoking all the rooms
+var a = airCondArea(totalLiv, totalRoom1, totalRoom2, totalRoom3, totalRoom4, totalRoom5);//invoking all the rooms
 
 console.log("All the rooms add up to " +a+ " cubic feet.");//logging all the rooms
 
