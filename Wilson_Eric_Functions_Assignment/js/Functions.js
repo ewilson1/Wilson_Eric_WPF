@@ -60,9 +60,8 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  }
 //the return, spits the information out to the var totalLiv, and is now ready to perform additional calculations.
 
- //Now, print out the results of the living room and see how much room you have for extra rooms.
+ //Now, print out the results.
  console.log("Your living room has " +totalLiv+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv)+ " cubic feet of air left to cool the Living Room.");
 
 // -------
  //Now repeat for each room in the home. If they come to a question regarding the amount of rooms-this could be where we place an anonymous function into the code-such as 'no'. Time will tell. Let's finish building the backbone before we try skipping code.
@@ -108,9 +107,8 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  //the return, spits the information out to the totalRoom1 (the Bedroom)
  //notice how we are able to use the same variables within the code!
 
- //Now, print out the results of both the living room and Bedroom and see how much room you have.
+ //Now, print out the results.
  console.log("Your Bedroom has " +totalRoom1+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv -totalRoom1)+ " cubic feet of air left to cool the home.");
 
 //----- Time for another room-------
 
@@ -154,7 +152,6 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
 
  //Now, print out the results and see how much room you have.
  console.log("Your 2nd room has " +totalRoom2+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2)+ " cubic feet of air left to cool the home.");
 
  //-----Time for the last room------
 
@@ -196,9 +193,9 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  //the return, spits the information out to the totalRoom3
  //notice how we are able to use the same variables within the code!
 
- //Now, print out the results and see how much room you have.
+ //Now, print out the results.
  console.log("Your 3rd room has " +totalRoom3+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3)+ " cubic feet of air left to cool the home.");
+
 
  //-----Time for the first Bath room------
 
@@ -239,9 +236,9 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  }
  //the return, spits the information out to the totalRoom4
 
- //Now, print out the results and see how much room you have.
+ //Now, print out the results.
  console.log("Your 1st bath room has " +totalRoom4+ " cubic feet of air to cool in this room.");
- console.log("You have " +(airCond - totalLiv -totalRoom1 -totalRoom2 -totalRoom3 - totalRoom4)+ " cubic feet of air left to cool the home.");
+
 
  //-----Time for the other Bath room------
 
@@ -271,6 +268,9 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  //Finally we have the last integer to find the cubic feet of this room
  console.log("Your other bath room is " + room5Height + " feet high.");
 
+//Now, print out the results.
+console.log("Your 2nd bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
+
  //Set the other Bathroom function call
 
  var totalRoom5 = calcRoom5 (room5Length, room5Width, room5Height);
@@ -282,8 +282,6 @@ console.log("You can cool up to 2,500 cubic feet of air with one air conditioner
  }
  //the return, spits the information out to the totalRoom5
 
- //Now, print out the results and see how much room you have.
- console.log("Your other bath room has " +totalRoom5+ " cubic feet of air to cool in this room.");
 
 //--------
  //Now time for closure or the anonymous function
