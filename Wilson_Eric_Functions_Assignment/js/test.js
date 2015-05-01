@@ -34,3 +34,22 @@ switch (new Date().getDay()) {
         break;
 }
 console.log("Today is " + day);
+
+
+//-----ugh----
+
+value=("Banana");
+switch(fruits) {
+    case "Banana":
+        text = "Banana is good!";
+        break;
+    case "Orange":
+        text = "I am not a fan of orange.";
+        break;
+
+    // add case here
+
+    default:
+        text = "I have never heard of that fruit.";
+}
+console.log(text);
