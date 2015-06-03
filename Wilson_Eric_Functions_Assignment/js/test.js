@@ -38,18 +38,18 @@ console.log("Today is " + day);
 
 //-----ugh----
 
-value=("Banana");
-switch(fruits) {
-    case "Banana":
-        text = "Banana is good!";
-        break;
-    case "Orange":
-        text = "I am not a fan of orange.";
-        break;
+//I would try your code so it is something like this:
 
-    // add case here
+var widths =[];
 
-    default:
-        text = "I have never heard of that fruit.";
+var lengths=[];
+
+var numRooms = prompt("How many bedrooms do you want to measure?");
+
+for(var i=0; i<numRooms; i++){
+
+    widths[i]=prompt("What is the width of bedroom #"+(i+1)+"?");
+
+    lengths[i]=prompt("What is the length of bedroom #"+(i+1)+"?");
+
 }
-console.log(text);
